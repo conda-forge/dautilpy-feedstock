@@ -11,7 +11,7 @@ source:
   sha256: 3f405927bc0ead83eae1ed6837c265753bdb35e4fdab0c385dd76e722b2aef44
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - h5link_recursive = dautil.IO.h5:h5link_recursive_cli
@@ -42,7 +42,7 @@ test:
     - h5py
     - pymediainfo
     - defopt
-    - matplotlib
+    - matplotlib-base
     - numpy
     - pandas
     - glom
